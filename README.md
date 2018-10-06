@@ -1,3 +1,7 @@
+# Udacity Self Driving Car Capstone
+
+This repo contains the scripts for training the traffic light detector for the capstone project.
+
 #### Installation
 Run `install_ubuntu.sh`
 

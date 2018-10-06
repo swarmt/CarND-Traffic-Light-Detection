@@ -1,0 +1,9 @@
+.idea/
+.ipynb_checkpoints/
+
+venv/
+cocoapi/
+models/
+data/
+
+*.gz
