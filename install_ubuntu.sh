@@ -4,14 +4,11 @@
 sudo apt-get install build-essential protobuf-compiler python-pip python-lxml python-tk python-setuptools
 pip install -r requirements.txt
 
-# Clone tensorflow models and checkout version compatible with 1.5.0
+# Clone tensorflow models and checkout version compatible with 1.4.1
 git clone https://github.com/tensorflow/models.git
 cd models
 git checkout f7e99c0
 cd ..
-
-# Patch exporter.py for tensorflow 1.5.0
-sed -i -e 's/optimize_tensor_layout/layout_optimizer/g' models/research/object_detection/exporter.py
 
 # Clone and install cocoapi
 git clone https://github.com/cocodataset/cocoapi.git

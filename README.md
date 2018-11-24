@@ -7,7 +7,7 @@ Run `install_ubuntu.sh`
 
 You may want to run this script in a virtualenv.
 
-`requirements.txt` contains tensorflow 1.5.0 for CUDA 9.0.
+`requirements.txt` contains tensorflow 1.4.1
 
 #### Training
 `./train.sh <ssd_inception | ssd_mobilenet>`
@@ -15,7 +15,7 @@ You may want to run this script in a virtualenv.
 #### Freeze
 `./freeze.sh <ssd_inception | ssd_mobilenet>`
 
-If you have trained the model a version of tensorflow > 1.5.0 you can create a virtualenv with `requirements.txt` installed and run this script.
+If you have trained the model a version of tensorflow > 1.4.1 you can create a virtualenv with `requirements.txt` installed and run this script.
 
 #### Visualize
 `inference.ipynb`
