@@ -13,7 +13,7 @@ You may want to run this script in a virtualenv.
 `./train.sh <ssd_inception | ssd_mobilenet>`
 
 #### Freeze
-`./freeze.sh <ssd_inception | ssd_mobilenet>`
+`./freeze.sh <ssd_inception | ssd_mobilenet> <checkpoint>`
 
 If you have trained the model a version of tensorflow > 1.4.1 you can create a virtualenv with `requirements.txt` installed and run this script.
 
